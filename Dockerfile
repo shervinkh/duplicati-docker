@@ -12,3 +12,5 @@ RUN /update.sh && \
     /cleanup.sh
 COPY configs /etc/
 COPY scripts /scripts/
+EXPOSE 8200 9001
+
